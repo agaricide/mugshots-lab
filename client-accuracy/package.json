@@ -1,0 +1,24 @@
+{
+  "name": "client-accuracy",
+  "version": "1.0.0",
+  "description": "Improve mugshots-client accuracy so it's useful for inequality experiments.",
+  "main": "ingest.js",
+  "scripts": {
+    "ingest": "ts-node ingest.ts",
+    "dev": "ts-node experiment.ts"
+  },
+  "dependencies": {
+    "@types/dotenv": "^4.0.3",
+    "@types/mongodb": "^3.1.12",
+    "@types/mongoose": "^5.2.19",
+    "dotenv": "^6.1.0",
+    "mongoose": "^5.3.4",
+    "mugshots-client": "^1.0.4",
+    "reflect-metadata": "^0.1.12",
+    "ts-node": "^7.0.1",
+    "typegoose": "^5.4.1",
+    "typescript": "^3.4.5"
+  },
+  "author": "agaricide",
+  "license": "ISC"
+}
