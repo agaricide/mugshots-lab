@@ -21,6 +21,9 @@ export class Mugshot extends Typegoose {
 
   @prop()
   public url: string;
+
+  @prop()
+  public race?: string;
 }
 
 export const MugshotModel = new Mugshot().getModelForClass(Mugshot);
