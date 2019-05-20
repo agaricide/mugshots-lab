@@ -13,7 +13,7 @@
     "@types/mongoose": "^5.2.19",
     "dotenv": "^6.1.0",
     "mongoose": "^5.3.4",
-    "mugshots-client": "^1.0.4",
+    "mugshots-client": "1.1.1",
     "reflect-metadata": "^0.1.12",
     "ts-node": "^7.0.1",
     "typegoose": "^5.4.1",
