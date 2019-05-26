@@ -4,8 +4,7 @@
   "description": "Improve mugshots-client accuracy so it's useful for inequality experiments.",
   "main": "ingest.js",
   "scripts": {
-    "ingest": "ts-node ingest.ts",
-    "dev": "ts-node experiment.ts"
+    "ingest": "ts-node src/ingest/counties.ts"
   },
   "dependencies": {
     "@types/dotenv": "^4.0.3",
